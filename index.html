@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Double Header with Hero Section</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <style>
+        .top-bar {
+            background-color: black;
+            color: white;
+            padding: 10px 0;
+        }
+        .top-bar a {
+            color: white;
+        }
+        .navbar-nav .nav-link {
+            color: black !important;
+        }
+        .hero-section {
+            padding: 60px 0;
+        }
+        .hero-title {
+            font-size: 48px;
+            font-weight: bold;
+        }
+        .hero-description {
+            margin-top: 20px;
+            font-size: 20px;
+        }
+        .hero-buttons {
+            margin-top: 30px;
+        }
+        .hero-image {
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <!-- Top Bar -->
+    <div class="container-fluid top-bar">
+        <div class="row">
+            <div class="col-md-6 text-left">
+                <i class="fas fa-phone-alt"></i> <a href="tel:+1234567890">+1 234 567 890</a>
+                <span class="ml-3"><i class="fas fa-map-marker-alt"></i> 1234 Street Name, City, State</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Main Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="#">Brand</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Careers</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <div class="container hero-section">
+        <div class="row">
+            <div class="col-md-6">
+                <h1 class="hero-title">Welcome to Our Website</h1>
+                <p class="hero-description">We are dedicated to providing the best service. Discover our amazing offerings and get started today.</p>
+                <div class="hero-buttons">
+                    <a href="#" class="btn btn-primary">Learn More</a>
+                    <a href="#" class="btn btn-secondary ml-2">Get Started</a>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <img src="https://th-thumbnailer.cdn-si-edu.com/ii_ZQzqzZgBKT6z9DVNhfPhZe5g=/fit-in/1600x0/filters:focal(1061x707:1062x708)/https://tf-cmsv2-smithsonianmag-media.s3.amazonaws.com/filer_public/55/95/55958815-3a8a-4032-ac7a-ff8c8ec8898a/gettyimages-1067956982.jpg"  alt="Hero Image" class="hero-image">
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
